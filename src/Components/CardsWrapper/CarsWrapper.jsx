@@ -25,7 +25,7 @@ function CarsWrapper() {
 
     useEffect(()=> {
         let cardsArray = [...cardsList]
-        let sortedArray = cardsArray.sort((a, b) => extractNumbers(a.price) - extractNumbers(b.price))
+        let sortedArray = cardsArray.sort((a, b) => extractNumbers(b.price) - extractNumbers(a.price))
         setCurrentCardsList(sortedArray)
     }, [])
 
