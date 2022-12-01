@@ -1,0 +1,27 @@
+.header {
+  background: #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  &__links-wrapper {
+    display: flex;
+  }
+
+  &__link {
+    margin-right: 32px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.zeromargin {
+  margin-right: 0;
+}
