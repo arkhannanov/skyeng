@@ -7,7 +7,7 @@ function Header() {
         <header className="header">
             <p className="header__title">Интерьер.</p>
             <div className="header__links-wrapper">
-                <Link to="/" className="header__link">Каталог</Link>
+                <Link to="/catalog" className="header__link">Каталог</Link>
                 <Link to="/basket" className="header__link zeromargin">Корзина</Link>
             </div>
         </header>
