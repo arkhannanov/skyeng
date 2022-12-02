@@ -1,0 +1,89 @@
+.basket-card {
+  display: flex;
+  padding-top: 25px;
+  border-top: 0.5px solid #CACDD8;
+  padding-bottom: 32px;
+  position: relative;
+
+  &__image {
+    height: 173px;
+    width: 173px;
+    background-size: contain;
+    margin-right: 31px;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  &__description {
+    font-size: 14px;
+    color: #888888;
+    padding-top: 14px;
+    margin: 0;
+    max-width: 276px;
+  }
+
+  &__price {
+    font-size: 16px;
+    padding-top: 16px;
+    color: #050505;
+    margin: 0;
+  }
+
+  &__links-wrapper {
+    display: flex;
+    padding-top: 15px;
+  }
+
+  &__link {
+    text-decoration: underline;
+    margin: 0;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+ &__counter-button {
+   position: absolute;
+   right: 0;
+   width: 71px;
+   height: 51px;
+   background: #F7F6F6;
+   border: none;
+   border-radius: 6px;
+ }
+
+  &__amount {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 16px;
+  }
+
+  &__counter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-arrows-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-right: 12px;
+    }
+
+    &-arrow {
+      margin: 5px;
+    }
+  }
+}

@@ -12,6 +12,18 @@
 
   &__links-wrapper {
     display: flex;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
+
+    &-mobile {
+      display: none;
+
+      @media (max-width: 540px) {
+        display: block;
+      }
+    }
   }
 
   &__link {
@@ -19,6 +31,8 @@
     font-size: 16px;
     color: white;
     text-decoration: none;
+
+
   }
 }
 
