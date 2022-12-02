@@ -8,7 +8,6 @@ function Card({src, title, description, price, id}) {
     const dispatch = useDispatch();
 
     const handleCardClick = (id) => {
-        console.log(id)
         dispatch(addToBasketAC(id))
     }
 
