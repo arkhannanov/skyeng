@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skyeng/static/css/main.518bbe51.css",
-    "main.js": "/skyeng/static/js/main.061006cd.js",
+    "main.js": "/skyeng/static/js/main.b8fb0a07.js",
     "static/js/787.b6555b21.chunk.js": "/skyeng/static/js/787.b6555b21.chunk.js",
     "static/media/5.png": "/skyeng/static/media/5.820e9ebed16f9f42b795.png",
     "static/media/3.png": "/skyeng/static/media/3.ee76fc86259cce48ddc7.png",
@@ -11,11 +11,11 @@
     "static/media/1.png": "/skyeng/static/media/1.4c20160a3b508f8001b0.png",
     "index.html": "/skyeng/index.html",
     "main.518bbe51.css.map": "/skyeng/static/css/main.518bbe51.css.map",
-    "main.061006cd.js.map": "/skyeng/static/js/main.061006cd.js.map",
+    "main.b8fb0a07.js.map": "/skyeng/static/js/main.b8fb0a07.js.map",
     "787.b6555b21.chunk.js.map": "/skyeng/static/js/787.b6555b21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.518bbe51.css",
-    "static/js/main.061006cd.js"
+    "static/js/main.b8fb0a07.js"
   ]
 }
